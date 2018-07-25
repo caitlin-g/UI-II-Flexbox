@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-around;
 	align-items: baseline;
+	width: 100%;
 }
 
 .navigation a{
@@ -153,3 +154,42 @@ footer {
 	justify-content: center;
 	margin-bottom: 40px;
 }
+
+.services-header-img {
+	width: 100%;
+}
+
+.services-h1 {
+	font-size: 30px;
+}
+
+.serv {
+	display: flex;
+	border: 1px solid red;
+	height: 600px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.service-box {
+	width: 490px;
+	height: 200px;
+	border: 1px solid grey;
+	background-color :#F0F0F0;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.services-top {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+
+.some-facts {
+	border-top: 1px solid black;
+	display: flex;
+}
+
