@@ -215,7 +215,8 @@ footer {
 
 ul li {
 	list-style-type: square;
-	line-height: 1.5;
+	line-height: 1;
+	margin: 20px;
 }
 
 .services-info-img {
